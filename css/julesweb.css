@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     background-image: url(../images/toroflowerswp.jpg);
     background-position: center center;
-    background-position-y: -340px;
+    background-position-y: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -11,12 +11,13 @@ body, html {
 
 header{
     background-color: rgba(255, 151, 205, 0.8);
+    height: 9.2%;
     width: 100%;
-    height: 63px;
-    width: 600px;
     position: fixed;
     top: 10px;
     z-index: 100;
+
+    
 }
 
 nav {
@@ -30,12 +31,13 @@ nav {
     display: flex; 
     padding: 0;
     margin: 0;
+
   }
 
 nav ul li {
     float: left;
     font-family: Arial, Helvetica, sans-serif;;
-    font-size: 20px;
+    font-size: 120%;
 }
 
 nav ul li a {
@@ -54,8 +56,8 @@ nav ul li a:hover {
     border-style: double;
     border-color: rgb(75, 32, 41);
     border-width: 10px;
-    height: 600px;
-    width: 600px;
+    height: 100%;
+    width: 45%;
     background-color: rgb(253, 233, 248);
     margin-left: auto;
     margin-right: auto;
@@ -63,24 +65,23 @@ nav ul li a:hover {
 }
 
 .espaciador{
-    height: 100px;
+    height: 15%;
 }
 
 #benvinguda{
 
     text-align: center;
-   
     padding: 30px;
     background-image: url(../images/pink\ bunny\ frame.png);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 600px;
-    height: 190px;
+    background-position: center top;
+    background-size: 100%;
+    height: 28%;
 
 }
 
 #bentext{
-    margin-top: 100px;
+    margin-top: 20%;
     font-size:xx-large;
     font-style:oblique;
     font-weight: 100;
@@ -88,10 +89,16 @@ nav ul li a:hover {
     color: rgb(18, 18, 19);
 }
 
+.textgen{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
 
 .separador{
-    text-align: left;
-    padding-left: 70px;
+    width: 110.7%;
+    margin-left: -5.4%;
+
 }
 
 .bunny{
