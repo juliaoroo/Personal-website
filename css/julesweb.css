@@ -22,8 +22,9 @@ body, html {
 header{
     background-color: rgba(255, 151, 205, 0.8);
     height: 9.2%;
-    width: 100%;
+    width: 46%;
     position: fixed;
+    left: 27%;
     top: 10px;
     z-index: 100;
 
@@ -72,6 +73,31 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
   
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.galeria img{
+    width: 200px;
+    height: 200px;
+}
+
+.galeria > div{
+    width: 200px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.galeria img:hover{
+    transform: scale(2);
+    object-fit: contain;
 }
 
 .espaciador{
