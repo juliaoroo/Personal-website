@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url(../images/toroflowerswp.jpg);
+    background-position: center center;
+    background-position-y: -340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+header{
+    background-color: rgba(255, 151, 205, 0.8);
+    width: 100%;
+    height: 63px;
+    width: 600px;
+    position: fixed;
+    top: 10px;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex; 
+    padding: 0;
+    margin: 0;
+  }
+
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: rgba(214, 2, 111, 0.8);
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    background: #ffdaeb
+}
+  
+#principal{
+    border-style: double;
+    border-color: rgb(75, 32, 41);
+    border-width: 10px;
+    height: 600px;
+    width: 600px;
+    background-color: rgb(253, 233, 248);
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.espaciador{
+    height: 100px;
+}
+
+#benvinguda{
+
+    text-align: center;
+   
+    padding: 30px;
+    background-image: url(../images/pink\ bunny\ frame.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px;
+    height: 190px;
+
+}
+
+#bentext{
+    margin-top: 100px;
+    font-size:xx-large;
+    font-style:oblique;
+    font-weight: 100;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(18, 18, 19);
+}
+
+
+.separador{
+    text-align: left;
+    padding-left: 70px;
+}
+
+.bunny{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+    margin-block: -17px;
+}
