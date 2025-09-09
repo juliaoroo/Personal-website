@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     background-image: url(../images/toroflowerswp.jpg);
     background-position: center center;
-    background-position-y: 100%;
+    background-position: center 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -84,6 +84,7 @@ nav ul li a:hover {
 .galeria img{
     width: 200px;
     height: 200px;
+    transition: transform 0.3s ease;
 }
 
 .galeria > div{
@@ -95,9 +96,8 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-.galeria img:hover{
-    transform: scale(2);
-    object-fit: contain;
+.galeria img:hover {
+  transform: scale(1.5);
 }
 
 .espaciador{
