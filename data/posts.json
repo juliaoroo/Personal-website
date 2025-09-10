@@ -1,0 +1,41 @@
+[
+
+    {
+
+        "id":"post1",
+        "titul": "Primera entrada blog",
+        "preview": "<p>C-chat? Estic fent la primera entrada del meu blog? Em sento orgullosa de la meva nova web 😎...</p>",
+        "contingut": "<p>C-chat? Estic fent la primera entrada del meu blog? Em sento orgullosa de la meva nova web 😎...</p>",
+        "data": "10-09-2025"
+
+    },
+    {
+
+        "id":"post2",
+        "titul": "Segona entrada blog",
+        "contingut": "<p>C-chat? Estic fent la primera entrada del meu blog? Em sento orgullosa de la meva nova web 😎 </p>",
+        "data": "10-09-2025"
+    },
+    {
+
+        "id":"post3",
+        "titul": "Tercera entrada blog",
+        "contingut": "<p>C-chat? Estic fent la primera entrada del meu blog? Em sento orgullosa de la meva nova web 😎 </p>",
+        "data": "10-09-2025"
+    },
+    {
+
+        "id":"post4",
+        "titul": "Quarta entrada blog",
+        "contingut": "<p>C-chat? Estic fent la primera entrada del meu blog? Em sento orgullosa de la meva nova web 😎 </p>",
+        "data": "10-09-2025"
+    },
+    {
+
+        "id":"post5",
+        "titul": "Cinquena entrada blog",
+        "contingut": "<p>C-chat? Estic fent la primera entrada del meu blog? Em sento orgullosa de la meva nova web 😎 </p>",
+        "data": "10-09-2025"
+    }
+
+]
