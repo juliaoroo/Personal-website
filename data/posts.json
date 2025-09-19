@@ -12,30 +12,12 @@
     {
 
         "id":"post2",
-        "titul": "Segona entrada blog",
-        "contingut": "<p>C-chat? Estic fent la primera entrada del meu blog? Em sento orgullosa de la meva nova web 😎 </p>",
-        "data": "10-09-2025"
-    },
-    {
+        "titul": "Sobre aquesta web",
+        "preview": "",
+        "contingut": "<p>Aqui la webmaster, hola a tothom i benvinguts a la meva web, si esteu aqui es perque us conec o potser heu trobat la meva web d'alguna forma, siguis qui siguis benvinguda/benvingut/benvingude, xafardeja el que vulguis.</p><h2>Qui soc?</h2><p>Em pots dir Jules, soc la creadora d'aquesta web, tinc 20 anys i estudio enginyeria informàtica. M'agraden les plantes, el dibuix, llegir i fer excursions per la natura, m'agrada probar de tot i m'agradaria ser de tot a la vida, si fos posible, ekisde.</p><h2>Per a que he creat aquesta web?</h2><p>Tenia ganes de recrear una mica a la meva manera les webs personals que es feien als 2000's, on cada u tenia la seva propia web, em fa ilusió penjar les coses que faig i explicar una mica de mi per compartir amb els meus amics o amb qui ho llegeixi, i així també amb l'excusa practica una mica de programació suposo xd</p><h2>Com he fet la web?</h2><p>Per fer la web he utilitzat HTML, CSS i algo de JavaScript, encara que actualment està en construcció i falta molt per fer, sobretot aconseguir que es vegi bé en diferents tipus de dispositius (no ho obris amb el móbil si us plau💀)</p></br><b>Gràcies per llegir un besito pa ti bb</b>",
+        "data": "19-09-2025"
 
-        "id":"post3",
-        "titul": "Tercera entrada blog",
-        "contingut": "<p>C-chat? Estic fent la primera entrada del meu blog? Em sento orgullosa de la meva nova web 😎 </p>",
-        "data": "10-09-2025"
-    },
-    {
-
-        "id":"post4",
-        "titul": "Quarta entrada blog",
-        "contingut": "<p>C-chat? Estic fent la primera entrada del meu blog? Em sento orgullosa de la meva nova web 😎 </p>",
-        "data": "10-09-2025"
-    },
-    {
-
-        "id":"post5",
-        "titul": "Cinquena entrada blog",
-        "contingut": "<p>C-chat? Estic fent la primera entrada del meu blog? Em sento orgullosa de la meva nova web 😎 </p>",
-        "data": "10-09-2025"
     }
+
 
 ]
