@@ -91,22 +91,21 @@ nav ul li a:hover {
 .galeria{
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
 }
 
 .galeria img{
-    width: 200px;
-    height: 200px;
+    width: 120%;
+    height: 120%;
     transition: transform 0.3s ease;
 }
 
 .galeria > div{
-    width: 200px;
-    height: 150px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    width: 35%;
+    height: 35%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 }
 
 .galeria img:hover {
@@ -251,8 +250,8 @@ nav ul li a:hover {
 }
 
 .construccion{
-    width: 300px;
-    margin: 170px;
+    width: 50%;
+    margin: 30%;
 }
 
 .footicon{
