@@ -80,7 +80,7 @@ nav ul li a:hover {
     border-style: double;
     border-color: rgb(75, 32, 41);
     border-width: 10px;
-    height: 100%;
+    height: auto;
     width: 45%;
     background-color: rgb(253, 233, 248);
     margin-left: auto;
