@@ -115,8 +115,8 @@ nav ul li a:hover {
 
 /*galeria*/
 
-#galeria{
-    display: flex;
+/*#galeria{
+    display: grid;
     flex-wrap: wrap;
 }
 
@@ -130,12 +130,28 @@ nav ul li a:hover {
     margin-top: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
+}*/
+
+#galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+#galeria img {
+  width: 95%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+  margin: 7px;
 }
 
 #paginacio{
     display: flex;
     justify-content: center;
     gap: 2%;
+    margin-top: 10px;
 }
 
 #paginacio button {
@@ -296,11 +312,5 @@ nav ul li a:hover {
 .footicon{
     width: 50px;
     height: auto;
-}
-
-/*responsive media*/
-
-@media screen(max width: 700 px) {
-    
 }
 
