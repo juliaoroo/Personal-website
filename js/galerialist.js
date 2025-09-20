@@ -29,7 +29,7 @@ function mostrarImatges(){
   paginaActual.textContent = pagina + "/" + (FOTO_PER_PAGE/4);
 }
 
-// Botón anterior
+
 document.getElementById("anterior").addEventListener("click", () => {
   if (pagina > 1) {
     pagina--;
@@ -37,7 +37,7 @@ document.getElementById("anterior").addEventListener("click", () => {
   }
 });
 
-// Botón siguiente
+
 document.getElementById("seguent").addEventListener("click", () => {
   if (pagina < Math.ceil(imatges.length / FOTO_PER_PAGE)) {
     pagina++;
@@ -45,7 +45,7 @@ document.getElementById("seguent").addEventListener("click", () => {
   }
 });
 
-// Mostrar la primera página al cargar
+
 mostrarImatges();
 
 
