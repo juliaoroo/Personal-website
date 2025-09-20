@@ -3,7 +3,11 @@ const imatges = [
 
 "../images/fotomuntanya1.jpg",
 "../images/fotomuntanya2.jpg",
-"../images/fotomuntanya3.jpg"
+"../images/fotomuntanya3.jpg",
+"../images/montseny.jpg",
+"../images/montseny2.jpg",
+"../images/marselo.jpg",
+"../images/calamardo.jpg"
 
 ];
 
@@ -12,6 +16,10 @@ let pagina = 1;
 
 const galeria = document.getElementById("galeria");
 const paginaActual = document.getElementById("pagina-actual");
+
+const lightbox = document.getElementById("lightbox");
+const imatgeGran = document.getElementById("imatge-gran");
+const tancar = document.getElementById("tancar");
 
 function mostrarImatges(){
 
@@ -24,9 +32,17 @@ function mostrarImatges(){
     const img = document.createElement("img");
     img.src = src;
     galeria.appendChild(img);
+
+    img.addEventListener("click", () => {
+      imatgeGran.src = src;
+      lightbox.classList.remove("ocult");
+    });
+
   });
 
-  paginaActual.textContent = pagina + "/" + (FOTO_PER_PAGE/4);
+
+
+  paginaActual.textContent = pagina + "/" + Math.ceil(imatges.length/4);
 }
 
 
@@ -46,6 +62,24 @@ document.getElementById("seguent").addEventListener("click", () => {
 });
 
 
+tancar.addEventListener("click", () => {
+  lightbox.classList.add("ocult");
+});
+
+document.addEventListener("keydown", (e) => {
+  if (!lightbox.classList.contains("ocult")) {
+    if (e.key === "Escape") {
+      lightbox.classList.add("ocult"); // tancar amb ESC
+    }
+    
+  }
+});
+
+
+lightbox.addEventListener("click", (e) => {
+  if (e.target !== imatgeGran) {
+    lightbox.classList.add("ocult");
+  }
+});
+
 mostrarImatges();
-
-

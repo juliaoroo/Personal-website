@@ -29,8 +29,7 @@ body, html {
     height: 20%;
     color: black;
     background-color: #f7aace;
-    padding-top: 5px;
-    padding-left: 20px;
+    padding: 5px;
   }
 
 header{
@@ -80,17 +79,12 @@ nav ul li a:hover {
     border-style: double;
     border-color: rgb(75, 32, 41);
     border-width: 10px;
-    height: 100%;
+    height: auto;
     width: 45%;
     background-color: rgb(253, 233, 248);
     margin-left: auto;
     margin-right: auto;
   
-}
-
-
-#galeria img:hover {
-  transform: scale(1.5);
 }
 
 .espaciador{
@@ -107,6 +101,10 @@ nav ul li a:hover {
     background-size: 100%;
     height: auto;
 
+}
+
+#comentaris{
+    padding: 5px;
 }
 
 #blog{
@@ -126,6 +124,39 @@ nav ul li a:hover {
   border-radius: 6px;
   transition: transform 0.3s ease;
   margin: 7px;
+}
+
+#galeria img:hover {
+  transform: scale(1.5);
+}
+
+#lightbox {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+}
+
+#lightbox.ocult {
+  display: none;
+}
+
+#tancar {
+  position: absolute;
+  top: 20px; right: 30px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
 }
 
 #paginacio{
