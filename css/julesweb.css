@@ -26,7 +26,7 @@ body, html {
 
   footer{
     width: auto;
-    height: 20%;
+    height: auto;
     color: black;
     background-color: #f7aace;
     padding: 5px;
@@ -332,6 +332,11 @@ nav ul li a:hover {
 .footicon{
     width: 50px;
     height: auto;
+}
+
+.deskimg{
+    margin-top: 20px;
+    margin-left: 90%
 }
 
 /*audio*/
