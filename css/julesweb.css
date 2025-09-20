@@ -113,25 +113,6 @@ nav ul li a:hover {
     margin: 5%;
 }
 
-/*galeria*/
-
-/*#galeria{
-    display: grid;
-    flex-wrap: wrap;
-}
-
-#galeria img{
-    width: 40%;
-    height: 40%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-    aspect-ratio: 1/1;
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-}*/
-
 #galeria {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
