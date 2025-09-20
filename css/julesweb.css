@@ -79,7 +79,7 @@ nav ul li a:hover {
     border-style: double;
     border-color: rgb(75, 32, 41);
     border-width: 10px;
-    height: auto;
+    height: 100%;
     width: 45%;
     background-color: rgb(253, 233, 248);
     margin-left: auto;
@@ -145,7 +145,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  z-index: 9999;
 }
 
 #lightbox img {
@@ -164,6 +164,7 @@ nav ul li a:hover {
   font-size: 40px;
   color: white;
   cursor: pointer;
+  pointer-events: auto;
 }
 
 #paginacio{
