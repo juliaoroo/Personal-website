@@ -105,6 +105,13 @@ nav ul li a:hover {
 
 #comentaris{
     padding: 5px;
+    height: auto;
+    border-style: double;
+    border-color: rgb(75, 32, 41);
+    border-width: 10px;
+    background-color: rgb(253, 233, 248);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #blog{
