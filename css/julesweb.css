@@ -312,7 +312,7 @@ nav ul li a:hover {
 
 .webicons{
 
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
 .bunny{
@@ -345,6 +345,10 @@ nav ul li a:hover {
 }
 
 /*audio*/
+
+audio{
+  margin-left: 5%;
+}
 
 /*responsive*/
 
@@ -392,6 +396,7 @@ nav ul li a:hover {
   #galeria{
   grid-template-columns: repeat(auto-fit, 130px);
   gap: 3px;
+  justify-content: center;
   }
 
   #galeria img {
