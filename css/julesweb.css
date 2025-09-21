@@ -59,8 +59,6 @@ nav {
 
 nav ul li {
     float: left;
-    font-family: Arial, Helvetica, sans-serif;;
-    font-size: 120%;
 }
 
 nav ul li a {
@@ -68,6 +66,8 @@ nav ul li a {
     padding: 20px;
     color: rgba(214, 2, 111, 0.8);
     text-decoration: none;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -79,11 +79,12 @@ nav ul li a:hover {
     border-style: double;
     border-color: rgb(75, 32, 41);
     border-width: 10px;
-    height: 100%;
+    height: auto;
     width: 45%;
     background-color: rgb(253, 233, 248);
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 2%;
   
 }
 
@@ -114,9 +115,9 @@ nav ul li a:hover {
     margin-right: auto;
 }
 
-#blog{
-    margin: 5%;
-}
+
+
+/*galeria*/
 
 #galeria {
   display: grid;
@@ -240,6 +241,10 @@ nav ul li a:hover {
 
 /*blog*/
 
+#blog{
+    margin: 5%;
+}
+
 #llistaPosts li{
     margin-bottom: 20px;
     border-bottom: 1px dashed #d182b5;
@@ -341,3 +346,64 @@ nav ul li a:hover {
 
 /*audio*/
 
+/*responsive*/
+
+@media (max-width: 600px) {
+  
+  #principal{
+    min-width: 90%;
+    height: auto;
+    padding-bottom: 5%;
+
+  }
+  
+  .textgen{
+    font-size: 14px;
+
+  }
+
+  .footicon{
+    width: 15%;
+  }
+
+
+  header{
+    width: 100%;
+    justify-content: center;
+    left: 0%;
+
+  }
+
+.deskimg{
+  margin-left: auto;
+}
+
+  nav ul li{
+    font-size: 90%;
+    justify-content: center;
+    font-weight:bold;
+  }
+
+  nav ul li a {
+    padding: 10px;
+    margin-top: 5px;
+  }
+
+  #galeria{
+  grid-template-columns: repeat(auto-fit, 130px);
+  gap: 3px;
+  }
+
+  #galeria img {
+  margin: 7px;
+}
+
+audio{
+  width: 80%;
+}
+
+#article{
+  margin: 10px;
+}
+
+}
