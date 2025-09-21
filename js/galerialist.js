@@ -6,12 +6,11 @@ const imatges = [
 "../images/fotomuntanya3.jpg",
 "../images/montseny.jpg",
 "../images/montseny2.jpg",
-"../images/marselo.jpg",
 "../images/calamardo.jpg"
 
 ];
 
-const FOTO_PER_PAGE = 4;
+const FOTO_PER_PAGE = 8;
 let pagina = 1;
 
 const galeria = document.getElementById("galeria");
@@ -26,7 +25,7 @@ function mostrarImatges(){
     galeria.innerHTML = "";
     const inici = (pagina - 1) * FOTO_PER_PAGE;
     const fi = inici + FOTO_PER_PAGE;
-    const imatgesPagina = imatges.slice(inici, fi);
+    const imatgesPagina = imatges.slice().reverse().slice(inici, fi);
 
   imatgesPagina.forEach(src => {
     const img = document.createElement("img");
@@ -42,7 +41,7 @@ function mostrarImatges(){
 
 
 
-  paginaActual.textContent = pagina + "/" + Math.ceil(imatges.length/4);
+  paginaActual.textContent = pagina + "/" + Math.ceil(imatges.length/FOTO_PER_PAGE);
 }
 
 

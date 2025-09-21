@@ -297,6 +297,27 @@ nav ul li a:hover {
   background-color: #580b2f;
 }
 
+.enrere{
+  background-color: #f38abb;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.enrere:hover{
+    background-color: #b30f5b;
+}
+
+.enrere:active {
+  background-color: #580b2f;
+}
+
 
 /*imatges*/
 
