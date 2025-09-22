@@ -26,10 +26,11 @@ body, html {
 
   footer{
     width: auto;
-    height: auto;
+    height:auto;
     color: black;
     background-color: #f7aace;
     padding: 5px;
+    
   }
 
 header{
@@ -85,7 +86,6 @@ nav ul li a:hover {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2%;
-  
 }
 
 .espaciador{
@@ -113,6 +113,16 @@ nav ul li a:hover {
     background-color: rgb(253, 233, 248);
     margin-left: auto;
     margin-right: auto;
+}
+
+.contenidor{
+  text-align: center;
+  color: #c47197;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 
@@ -217,13 +227,21 @@ nav ul li a:hover {
     text-align: center;
 }
 
+#links{
+  text-align: center;
+  margin-top:7%;
+  margin-bottom: 10%;
+}
+
 .minititol{
     text-decoration: none;
     color: #c47197;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-bottom: 1px dashed #d182b5;
     margin: 20px;
-    width: 10%;
+    font-weight: bold;
+    font-size: larger;
+
 }
 
 .textgen{
@@ -298,7 +316,7 @@ nav ul li a:hover {
 }
 
 .enrere{
-  background-color: #f38abb;
+    background-color: #f38abb;
     color: white;
     border: none;
     padding: 8px 16px;
@@ -430,6 +448,15 @@ audio{
 
 #article{
   margin: 10px;
+}
+
+.minititol{
+  font-size: 80%;
+  margin: 2%;
+}
+
+.titolgen{
+  font-size: 100%;
 }
 
 }
