@@ -4,7 +4,6 @@ const imatges = [
 "../images/fotomuntanya1.jpg",
 "../images/fotomuntanya2.jpg",
 "../images/fotomuntanya3.jpg",
-"../images/montseny.jpg",
 "../images/montseny2.jpg",
 "../images/calamardo.jpg"
 
